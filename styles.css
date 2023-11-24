@@ -1,0 +1,91 @@
+body {
+    background-color: #f2f2f0;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+#gradient {
+    background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
+}
+
+.m1-d1 {
+    height: 1000px;
+    width: 1920px;
+}
+
+.m1-s2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin: 0%;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.m1-s2 span {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.m1-s2 button {
+    margin-top: 50px;
+}
+
+.btn-m1 {
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    padding: 1.5em 4em;
+    background: #edb51a;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-m1:hover {
+    background: #b58a14;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+.navbar .logo {
+    padding-top: 1%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 18px;
+    margin-right: auto; /* Pushes the logo (image) to the left. */
+}
+
+.navbar a {
+    padding-top: 2%;
+    text-decoration: none;
+    color: #050778;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 18px;
+    margin-left: 75px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .logo img {
+    width: 90px;
+}
+
+.navbar a:hover {
+    color: #edb51a;
+}

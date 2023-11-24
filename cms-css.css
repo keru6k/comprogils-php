@@ -1,0 +1,46 @@
+html {
+    font-family: "Open Sans";
+}
+
+body {
+    background-color: #f2f2f0;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    padding-right: 5%;
+}
+
+.navbar .logo {
+    padding-top: 1%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 18px;
+}
+
+.navbar a {
+    padding-top: 2%;
+    text-decoration: none;
+    color: #050778;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 18px;
+    margin-left: 75px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .logo img {
+    width: 90px;
+}
+
+.navbar p {
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.container {
+    padding-left: 5%;
+}

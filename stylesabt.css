@@ -1,0 +1,45 @@
+body {
+    background-color: #f2f2f0;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+    
+.navbar .logo {
+    padding-top: 1%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 18px;
+    margin-right: auto; /* Pushes the logo (image) to the left. */
+}
+    
+.navbar a {
+    padding-top: 2%;
+    text-decoration: none;
+    color: #050778;
+    font-family: 'Open Sans', 'Regular';
+    font-size: 18px;
+    margin-left: 75px;
+    transition: 0.3s ease-in-out;
+}
+    
+.navbar .logo img {
+    width: 90px;
+}
+    
+.navbar a:hover {
+   color: #edb51a;
+}
+
+.memberlist {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
